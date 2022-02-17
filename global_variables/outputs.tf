@@ -3,10 +3,10 @@ output "aws_region" {
   value = "us-west-2"
 }
 output "webappname" {
-    value = "deebo"
+    value = "tf-imagined-secured-system"
 }
 output "loggingbucket" {
-    value = "deebo-logging-bucket"
+    value = "tf-imagined-secured-system-logging-bucket"
 }
 # reading account_id from environment 
 data "aws_caller_identity" "current" {}
